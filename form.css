@@ -1,0 +1,30 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pembelian{
+    background: rgb(156, 66, 93);
+    background: linear-gradient(90deg, rgba(156, 66, 93, 1) 0%, rgba(19, 26, 71, 1) 100%);
+    margin-top: 3rem;
+    width: 600px;
+    margin-left: 20rem;
+    padding: 10px 20px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px 0px #9E7777;
+    font-size: 20px;
+    color: aliceblue;
+    color: azure;
+}
+
+#pembelian h2{
+    text-align: center;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+#pembelian td{
+    width: 200px;
+    height: 30px;
+}

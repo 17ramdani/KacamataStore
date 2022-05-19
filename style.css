@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Zen+Kurenaido&display=swap');
+
+
+body {
+    background-image: url(bg.jpg);
+    background-color: #c77dff;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.navbar {
+    background-color: #3c096c;
+    opacity: 95%;
+    color: white;
+    height: auto;
+}
+
+.nav-item {
+    outline-color: white;
+}
+
+#wrapper {
+    background: rgb(254, 178, 84);
+    background: linear-gradient(90deg, rgba(254, 178, 84, 1) 0%, rgba(148, 63, 96, 1) 94%);
+    opacity: 95%;
+    color: white;
+    height: 580px;
+    border-radius: 10px;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#wrapper img {
+    width: min-content;
+}
+
+
+
+#content {
+    background: rgb(156, 66, 93);
+    background: linear-gradient(90deg, rgba(156, 66, 93, 1) 0%, rgba(19, 26, 71, 1) 100%);
+    opacity: 95%;
+    color: white;
+    height: 580px;
+    border-radius: 10px;
+    margin-top: 6rem;
+}
+
+#content h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#content img {
+    width: 730px;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+#content h3 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+#content p {
+    padding: 5px 10px 5px 10px;
+    font-size: 22px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.img img {
+    margin-top: 2rem;
+    border-radius: 2%;
+}
+
+#produk {
+    background: rgb(30, 30, 89);
+    background: linear-gradient(0deg, rgba(30, 30, 89, 1) 0%, rgba(147, 53, 94, 1) 100%);
+    color: white;
+    height: 900px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-left: 3rem;
+    padding-top: 4rem;
+
+}
+
+#produk .card {
+    margin-bottom: 2rem;
+}
+
+#produk h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+table img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button{
+    border-radius: 3%;
+}
+
+.form{
+    padding-top: 4rem;
+}
+
+#footer {
+    background-color: #3c096c;
+    opacity: 95%;
+    color: white;
+    text-align: center;
+    height: auto;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 1rem;
+}
